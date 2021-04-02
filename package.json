@@ -1,0 +1,24 @@
+{
+  "name": "toggl_report",
+  "version": "1.0.0",
+  "description": "script to get reports from Toggl Track",
+  "main": "index.js",
+  "author": "Thiago Klein",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@types/clipboardy": "^2.0.1",
+    "@types/lodash": "^4.14.168",
+    "axios": "^0.21.1",
+    "clipboardy": "^2.3.0",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.21",
+    "ts-node": "^9.1.1"
+  }
+}
